@@ -18,9 +18,7 @@ const location = async function (address) {
   console.log(data);
 };
 
-const result = location(
-  "Giani Zail Singh Nagar , Rupnagar, 140001, Punjab , India"
-);
+const result = location("IIT Rupnagar, 140001, Punjab , India");
 // console.log(result);
 app.listen(8080, () => {
   console.log(`server is listening at port 8080`);
